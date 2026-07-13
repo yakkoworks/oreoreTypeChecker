@@ -20,7 +20,7 @@ td{
 .dummy{
     visibility: hidden;
 }
-.header-col{}
+/* .header-col{} */
 .row01,.header-col.col01{
     background-color:#949494;
 }
@@ -74,4 +74,38 @@ td{
 }
 .row18,.header-col.col18{
     background-color:#DAB4D4;
+}
+#type-select{
+	display: inline-grid;
+	grid-auto-flow: column;
+	    column-gap: 5vw;
+}
+
+h1{
+	    margin: 1vh;
+    font-size: 1.2rem;
+}
+#calc-result{
+	display: grid;
+    justify-items: center;
+		    margin-top: 2vh;
+				    row-gap: 1vh;
+}
+.calc-result-effect{
+	background-color: #4C4948;
+	width: 50vw;
+	    height: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 4fr;
+		    align-items: center;
+}
+
+.calc-result-effect img{
+	vertical-align: middle;
+	    padding: 0 5px;
+}
+
+.calc-result-effect div{
+	display: flex;
 }

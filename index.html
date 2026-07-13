@@ -11,8 +11,8 @@
 	<script src="image-selector.js"></script>
 </head>
 <body onload="init()">
-	<h1>oreoreTypeChecker</h1>
-	<div>
+	<div id="typeCheckerTable" class="tab">
+		<h1>oreoreTypeChecker</h1>
 		<table>
 			<tbody>
 				<tr>
@@ -417,7 +417,8 @@
 			</tbody>
 		</table>
 	</div>
-<div>
+<div id="multiTypeCalculator" class="tab">
+		<h1>MultiTypeCalculator</h1>
 		<div id="type-select">
 			<div id="type-first">
 				<img src="./images/icon_type_01.svg"  width="32" height="32"  alt="" class="ImageSelector__option" data-value="01">
@@ -460,7 +461,28 @@
 				<img src="./images/icon_type_18.svg"  width="32" height="32"  alt="" class="ImageSelector__option" data-value="18">
 			</div>
 		</div>
-		<button id="calcBtn" onclick="calcEffect()" disabled>Calc</button>
+		<div id="calc-result">
+			<div id="effect-super-effective" class="calc-result-effect" style="background-color: #FFA07A;">
+				<label>x4</label>
+				<div></div>
+			</div>
+			<div id="effect-effective" class="calc-result-effect" style="background-color: #F6C4BE;">
+				<label>x2</label>
+				<div></div>
+			</div>
+			<div id="effect-not-effective" class="calc-result-effect" style="background-color: #C1D7F4;">
+				<label>x0.5</label>
+				<div></div>
+			</div>
+			<div id="effect-very-not-effective" class="calc-result-effect" style="background-color: #9DC6FF;">
+				<label>x0.25</label>
+				<div></div>
+			</div>
+			<div id="effect-doesnt-affect" class="calc-result-effect" style="background-color: #BEBEBE;">
+				<label>x0</label>
+				<div></div>
+			</div>
+		</div>
 </div>
 </body>
 </html>

@@ -391,7 +391,8 @@ function onChangeSelectorFirst(){
 		type_first_list = result;
 		flg_first = true;
 		if(flg_first && flg_second){
-			document.querySelector("#calcBtn").disabled = false;
+			calcEffect()
+			// document.querySelector("#calcBtn").disabled = false;
 		}
 	})
 }
@@ -401,7 +402,8 @@ function onChangeSelectorSecond(){
 		type_second_list = result;
 		flg_second = true;
 		if(flg_first && flg_second){
-			document.querySelector("#calcBtn").disabled = false;
+			calcEffect()
+			// document.querySelector("#calcBtn").disabled = false;
 		}
 	})
 }
@@ -413,10 +415,40 @@ async function fetchText(index) {
 }
 
 function calcEffect(){
+	document.querySelectorAll(".calc-result-effect div").forEach(element => {
+		element.innerHTML = "";
+	});
 	var effects = [];
 	for(var i = 1;i<19;i++){
 		var counter = i.toString().padStart(2, '0')
 		effects[counter] = type_first_list[counter] * type_second_list[counter];
 	}
-	console.log(effects)
+	// console.log(effects)
+	for(var i = 1;i<19;i++){
+		var element = document.createElement("img");
+		element.width = "32";
+		element.height = "32";
+		var counter = i.toString().padStart(2, '0')
+		switch(effects[counter]){
+			case 1:
+			break;
+			case 2:
+			element.src = `./images/icon_type_${counter}.svg`;
+			document.querySelector("#effect-effective div").appendChild(element)
+			break;
+			case 0.5:
+			element.src = `./images/icon_type_${counter}.svg`;
+			document.querySelector("#effect-not-effective div").appendChild(element)
+			break;
+			case 0.25:
+			element.src = `./images/icon_type_${counter}.svg`;
+			document.querySelector("#effect-very-not-effective div").appendChild(element)
+			break;
+			case 0:
+			element.src = `./images/icon_type_${counter}.svg`;
+			document.querySelector("#effect-doesnt-affect div").appendChild(element)
+			break;
+			
+		}
+	}
 }
