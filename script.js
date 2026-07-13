@@ -40,8 +40,9 @@ function init(){
 					document.querySelector(".header-row.row02").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col02").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col03").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col04").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col05").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col06").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col12").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col13").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col15").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col17").style.filter = "brightness(1)";
@@ -50,39 +51,40 @@ function init(){
 					document.querySelector(".header-row.row03").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col02").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col03").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col04").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col05").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col09").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col13").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col15").style.filter = "brightness(1)";
 					break;
 					case "row04":
 					document.querySelector(".header-row.row04").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col02").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col03").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col04").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col08").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col09").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col10").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col13").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col15").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col17").style.filter = "brightness(1)";
-					break;
-					case "row05":
-					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col03").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col04").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col05").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col09").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col10").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col15").style.filter = "brightness(1)";
+					break;
+					case "row05":
+					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col02").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col03").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col05").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col08").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col09").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col10").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col12").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col13").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col15").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col17").style.filter = "brightness(1)";
 					break;
 					break;
 					case "row06":
 					document.querySelector(".header-row.row06").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col02").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col03").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col04").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col05").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col06").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col09").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col10").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col15").style.filter = "brightness(1)";
@@ -100,14 +102,16 @@ function init(){
 					document.querySelector(".header-col.col14").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col16").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col17").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col18").style.filter = "brightness(1)";
 					break;
 					case "row08":
 					document.querySelector(".header-row.row08").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col04").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col05").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col08").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col09").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col13").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col14").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col17").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col18").style.filter = "brightness(1)";
 					break;
 					case "row09":
@@ -141,9 +145,11 @@ function init(){
 					case "row12":
 					document.querySelector(".header-row.row12").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col02").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col04").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col05").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col07").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col08").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col10").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col11").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col14").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col16").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col17").style.filter = "brightness(1)";
@@ -163,7 +169,7 @@ function init(){
 					document.querySelector(".header-col.col01").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col11").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col14").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col07").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col16").style.filter = "brightness(1)";
 					break;
 					case "row15":
 					document.querySelector(".header-row.row15").style.filter = "brightness(1)";
@@ -183,7 +189,7 @@ function init(){
 					document.querySelector(".header-row.row17").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col02").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col03").style.filter = "brightness(1)";
-					document.querySelector(".header-col.col05").style.filter = "brightness(1)";
+					document.querySelector(".header-col.col04").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col06").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col13").style.filter = "brightness(1)";
 					document.querySelector(".header-col.col17").style.filter = "brightness(1)";
@@ -232,7 +238,7 @@ function init(){
 					case "col02":
 					document.querySelector(".header-row.row02").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row03").style.filter = "brightness(1)";
-					document.querySelector(".header-row.row04").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row06").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row12").style.filter = "brightness(1)";
@@ -249,6 +255,13 @@ function init(){
 					document.querySelector(".header-row.row17").style.filter = "brightness(1)";
 					break;
 					case "col04":
+					document.querySelector(".header-row.row04").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row10").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row17").style.filter = "brightness(1)";
+					break;
+					case "col05":
+					document.querySelector(".header-row.row02").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row03").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row04").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
@@ -258,14 +271,9 @@ function init(){
 					document.querySelector(".header-row.row10").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row12").style.filter = "brightness(1)";
 					break;
-					case "col05":
-					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
-					document.querySelector(".header-row.row06").style.filter = "brightness(1)";
-					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
-					document.querySelector(".header-row.row10").style.filter = "brightness(1)";
-					document.querySelector(".header-row.row17").style.filter = "brightness(1)";
-					break;
 					case "col06":
+					document.querySelector(".header-row.row02").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row06").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row13").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row17").style.filter = "brightness(1)";
@@ -278,7 +286,6 @@ function init(){
 					document.querySelector(".header-row.row18").style.filter = "brightness(1)";
 					break;
 					case "col08":
-					document.querySelector(".header-row.row04").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row08").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
@@ -300,16 +307,18 @@ function init(){
 					document.querySelector(".header-row.row06").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row12").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row13").style.filter = "brightness(1)";
 					break;
 					case "col11":
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row11").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row12").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row14").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row16").style.filter = "brightness(1)";
 					break;
 					case "col12":
-					document.querySelector(".header-row.row04").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row10").style.filter = "brightness(1)";
@@ -319,7 +328,7 @@ function init(){
 					document.querySelector(".header-row.row01").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row02").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row03").style.filter = "brightness(1)";
-					document.querySelector(".header-row.row04").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row08").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
@@ -353,7 +362,8 @@ function init(){
 					break;
 					case "col17":
 					document.querySelector(".header-row.row01").style.filter = "brightness(1)";
-					document.querySelector(".header-row.row04").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row02").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row06").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
@@ -361,7 +371,6 @@ function init(){
 					document.querySelector(".header-row.row11").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row12").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row13").style.filter = "brightness(1)";
-					document.querySelector(".header-row.row14").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row15").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row17").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row18").style.filter = "brightness(1)";
@@ -370,6 +379,7 @@ function init(){
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row08").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row12").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row15").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row16").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row17").style.filter = "brightness(1)";
 					break;
