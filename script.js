@@ -286,6 +286,7 @@ function init(){
 					document.querySelector(".header-row.row18").style.filter = "brightness(1)";
 					break;
 					case "col08":
+					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row08").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
@@ -366,6 +367,7 @@ function init(){
 					document.querySelector(".header-row.row05").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row06").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row07").style.filter = "brightness(1)";
+					document.querySelector(".header-row.row08").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row09").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row10").style.filter = "brightness(1)";
 					document.querySelector(".header-row.row11").style.filter = "brightness(1)";
@@ -441,6 +443,10 @@ function calcEffect(){
 		var counter = i.toString().padStart(2, '0')
 		switch(effects[counter]){
 			case 1:
+			break;
+			case 4:
+			element.src = `./images/icon_type_${counter}.svg`;
+			document.querySelector("#effect-super-effective div").appendChild(element)
 			break;
 			case 2:
 			element.src = `./images/icon_type_${counter}.svg`;
