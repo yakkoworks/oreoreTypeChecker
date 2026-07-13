@@ -3,6 +3,7 @@ body{
 	color: var(--color-text);
 	text-align: center;
 	zoom: 0.9;
+	height: 100vh;
 	margin: 0;
 }
 table{
@@ -138,4 +139,30 @@ grid-template-columns: 45% 45%;
 	--color-background: #F0ECE1;
 	--color-text: #4F200D;
 	--color-accent: #FFD93D;
+}
+.slideInFromRight{
+    animation: 0.25s ease  slideInFromRight;
+}
+.slideInFromLeft{
+    animation: 0.25s ease  slideInFromLeft;
+}
+@keyframes slideInFromRight {
+    from { 
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromLeft {
+    from { 
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

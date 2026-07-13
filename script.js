@@ -8,6 +8,7 @@ type_first_list = [];
 type_second_list = [];
 function init(){
 	inittabs();
+	initSwipe(document.body);
 	// 攻撃側
 	document.querySelectorAll(".header-row").forEach(element => {
 		element.addEventListener("click",function(params) {

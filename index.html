@@ -9,15 +9,16 @@
 	<link rel="stylesheet" href="image-selector.css">
 	<script src="script.js"></script>
 	<script src="image-selector.js"></script>
+	<script src="initSwipe.js"></script>
 </head>
 <body onload="init()">
 	<img src="images/dotlaboratory.png" alt="" style="    width: 50px; margin-top: 1vh;">
 	<h1>oreoreTypeChecker</h1>
 		<ul>
-			<li class="tabbtns activetabbtn" data-tab="typeTable">Effective Table</li>
-			<li class="tabbtns" data-tab="quickReference">Quick Reference</li>
+			<li id="tabbtn-effectiveTable" class="tabbtns activetabbtn" data-tab="effectiveTable">Effective Table</li>
+			<li id="tabbtn-quickReference" class="tabbtns" data-tab="quickReference">Quick Reference</li>
 	</ul>
-	<div id="typeTable" class="tabs activetab">
+	<div id="effectiveTable" class="tabs activetab">
 		<h1>Effective Table</h1>
 		<table>
 			<tbody>
