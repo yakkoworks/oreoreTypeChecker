@@ -1,4 +1,5 @@
 body{
+	background-color: #F0ECE1;
     text-align: center;
     zoom: 0.9;
     margin: 0;
@@ -109,3 +110,22 @@ h1{
 .calc-result-effect div{
 	display: flex;
 }
+/* 
+ul{
+	grid-template-columns: 45% 45%;
+    display: grid;
+    justify-content: center;
+}
+.tabbtns{
+    text-align: center;
+    list-style-type: none;
+}
+.activetab{
+	display: block !important;
+}
+.tabs{
+	display: none;
+}
+.activetabbtn{
+	border-bottom: #fff 1px solid;
+} */

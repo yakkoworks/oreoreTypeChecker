@@ -431,11 +431,17 @@ function calcEffect(){
 		element.innerHTML = "";
 	});
 	var effects = [];
-	for(var i = 1;i<19;i++){
-		var counter = i.toString().padStart(2, '0')
-		effects[counter] = type_first_list[counter] * type_second_list[counter];
+	if(type_first == type_second){
+		for(var i = 1;i<19;i++){
+			var counter = i.toString().padStart(2, '0')
+			effects[counter] = type_first_list[counter];
+		}
+	} else {
+		for(var i = 1;i<19;i++){
+			var counter = i.toString().padStart(2, '0')
+			effects[counter] = type_first_list[counter] * type_second_list[counter];
+		}
 	}
-	// console.log(effects)
 	for(var i = 1;i<19;i++){
 		var element = document.createElement("img");
 		element.width = "32";
@@ -467,4 +473,19 @@ function calcEffect(){
 			
 		}
 	}
+}
+
+function inittabs(){
+	document.querySelectorAll(".tabbtns").forEach(element => {
+		element.addEventListener('click',function(){
+			document.querySelectorAll(".tabbtns").forEach(element => {
+				element.classList.remove("activetabbtn");
+			});
+			document.querySelectorAll(".tabs").forEach(element => {
+				element.classList.remove("activetab");
+			});
+			document.querySelector(`#${element.dataset.tab}`).classList.add("activetab");
+			element.classList.add("activetabbtn");
+		})
+	})
 }
