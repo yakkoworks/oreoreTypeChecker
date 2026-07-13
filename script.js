@@ -7,6 +7,7 @@ type_second = "00";
 type_first_list = [];
 type_second_list = [];
 function init(){
+	inittabs();
 	// 攻撃側
 	document.querySelectorAll(".header-row").forEach(element => {
 		element.addEventListener("click",function(params) {
